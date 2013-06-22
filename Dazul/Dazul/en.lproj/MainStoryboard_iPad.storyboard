@@ -20,14 +20,47 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pF1-EW-aV0">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="CSB-rh-2Uf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzI-zA-pUb">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="73" id="G7f-ni-seB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Actualizar">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="actualizar:" destination="2" eventType="touchUpInside" id="g7u-GN-vrj"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="2Ha-Ku-sX2" firstAttribute="top" secondItem="RCY-ho-VaP" secondAttribute="top" type="default" id="33b-9T-Uz9"/>
                                     <constraint firstItem="2Ha-Ku-sX2" firstAttribute="trailing" secondItem="RCY-ho-VaP" secondAttribute="trailing" type="default" id="6Ba-Tq-Chv"/>
+<<<<<<< HEAD
+                                    <constraint firstItem="pF1-EW-aV0" firstAttribute="leading" secondItem="OLS-U7-ker" secondAttribute="leading" type="default" id="6Cw-hV-eFy"/>
+                                    <constraint firstItem="pF1-EW-aV0" firstAttribute="top" secondItem="RCY-ho-VaP" secondAttribute="top" constant="420" id="8CF-9I-jWJ"/>
+                                    <constraint firstItem="OLS-U7-ker" firstAttribute="centerX" secondItem="2Ha-Ku-sX2" secondAttribute="centerX" type="default" id="BaA-kx-b0w"/>
+                                    <constraint firstItem="CzI-zA-pUb" firstAttribute="top" secondItem="RCY-ho-VaP" secondAttribute="top" constant="480" id="Y3L-X1-s7B"/>
+=======
                                     <constraint firstAttribute="bottom" secondItem="OLS-U7-ker" secondAttribute="bottom" constant="453" id="PhU-vs-Gh5"/>
+>>>>>>> dd9636b99776a1131910a7d5f4db6e90d314fa3b
                                     <constraint firstItem="2Ha-Ku-sX2" firstAttribute="bottom" secondItem="RCY-ho-VaP" secondAttribute="bottom" type="default" id="fS9-RH-QGt"/>
-                                    <constraint firstItem="OLS-U7-ker" firstAttribute="centerX" secondItem="2Ha-Ku-sX2" secondAttribute="centerX" type="default" id="mA9-3C-7oq"/>
+                                    <constraint firstAttribute="trailing" secondItem="CzI-zA-pUb" secondAttribute="trailing" constant="190" id="fUB-dz-q2b"/>
+                                    <constraint firstItem="OLS-U7-ker" firstAttribute="trailing" secondItem="pF1-EW-aV0" secondAttribute="trailing" type="default" id="fr6-t0-GfH"/>
+                                    <constraint firstItem="CzI-zA-pUb" firstAttribute="centerY" secondItem="OLS-U7-ker" secondAttribute="centerY" type="default" id="q26-ji-R8D"/>
                                     <constraint firstItem="2Ha-Ku-sX2" firstAttribute="leading" secondItem="RCY-ho-VaP" secondAttribute="leading" type="default" id="zrT-dd-0XJ"/>
                                 </constraints>
                             </view>
@@ -41,6 +74,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="actualizar" destination="CzI-zA-pUb" id="gtJ-gW-X0P"/>
+                        <outlet property="valorCompra" destination="pF1-EW-aV0" id="pC7-40-tZS"/>
                         <outlet property="valorVenta" destination="OLS-U7-ker" id="q0k-qu-7YT"/>
                     </connections>
                 </viewController>
@@ -49,9 +84,12 @@
             <point key="canvasLocation" x="223" y="-45"/>
         </scene>
     </scenes>
+<<<<<<< HEAD
+=======
     <resources>
         <image name="fondo.png" width="1536" height="2048"/>
     </resources>
+>>>>>>> dd9636b99776a1131910a7d5f4db6e90d314fa3b
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
@@ -59,6 +97,12 @@
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
+<<<<<<< HEAD
+                <relationship kind="action" name="actualizar:"/>
+                <relationship kind="outlet" name="actualizar" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="valorCompra" candidateClass="UILabel"/>
+=======
+>>>>>>> dd9636b99776a1131910a7d5f4db6e90d314fa3b
                 <relationship kind="outlet" name="valorVenta" candidateClass="UILabel"/>
             </relationships>
         </class>
