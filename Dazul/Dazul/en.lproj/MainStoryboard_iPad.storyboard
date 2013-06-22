@@ -14,7 +14,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RCY-ho-VaP">
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fondo.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Ha-Ku-sX2"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fondo2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2Ha-Ku-sX2"/>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLS-U7-ker">
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -87,7 +87,7 @@
 <<<<<<< HEAD
 =======
     <resources>
-        <image name="fondo.png" width="1536" height="2048"/>
+        <image name="fondo2.jpg" width="1536" height="2048"/>
     </resources>
 >>>>>>> dd9636b99776a1131910a7d5f4db6e90d314fa3b
     <classes>
