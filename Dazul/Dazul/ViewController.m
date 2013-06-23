@@ -10,14 +10,25 @@
 
 @interface ViewController ()
 
+
 @end
 
+
+
 @implementation ViewController
+
+@synthesize valorVenta;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    valorVenta.text = @"Nunchaku";
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
