@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A04EBA841776984F006B6F2C /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = A04EBA831776984F006B6F2C /* fondo.png */; };
 		A07E1CBD17767CAC00A69DA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07E1CBC17767CAC00A69DA7 /* UIKit.framework */; };
 		A07E1CBF17767CAC00A69DA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07E1CBE17767CAC00A69DA7 /* Foundation.framework */; };
 		A07E1CC117767CAC00A69DA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07E1CC017767CAC00A69DA7 /* CoreGraphics.framework */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A04EBA831776984F006B6F2C /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
 		A07E1CB917767CAC00A69DA7 /* Dazul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dazul.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07E1CBC17767CAC00A69DA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A07E1CBE17767CAC00A69DA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,6 +87,7 @@
 		A07E1CC217767CAC00A69DA7 /* Dazul */ = {
 			isa = PBXGroup;
 			children = (
+				A04EBA831776984F006B6F2C /* fondo.png */,
 				A07E1CCB17767CAC00A69DA7 /* AppDelegate.h */,
 				A07E1CCC17767CAC00A69DA7 /* AppDelegate.m */,
 				A07E1CD417767CAC00A69DA7 /* MainStoryboard_iPhone.storyboard */,
@@ -167,6 +170,7 @@
 				A07E1CD317767CAC00A69DA7 /* Default-568h@2x.png in Resources */,
 				A07E1CD617767CAC00A69DA7 /* MainStoryboard_iPhone.storyboard in Resources */,
 				A07E1CD917767CAC00A69DA7 /* MainStoryboard_iPad.storyboard in Resources */,
+				A04EBA841776984F006B6F2C /* fondo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +316,7 @@
 				A07E1CE117767CAC00A69DA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
